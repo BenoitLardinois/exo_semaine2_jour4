@@ -14,7 +14,11 @@ We have an array with handles from Twitter and we will treat them.
 8) Actually too difficult for me.
 
 ## B) 01_cryptocurrencies.rb
-We have two arrays with currencies and value.
-1) ...
+We have two arrays one with currencies and the second with values. This is cryptocurrencies.
+1) We must associate currencies with values with the method 'map, to_f and to_h'.
+2) The most valuable crypto with the method 'max_by'.
+3) The crypto with the lowest value with the method 'min_by'.
+4) The currencies priced below 6000 with the method 'filter'.
+5) The most expensive currency among those priced below 6000 with the method 'filter and max_by'.
 
 
