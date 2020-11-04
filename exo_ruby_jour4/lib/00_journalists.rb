@@ -31,7 +31,22 @@ puts handles.index('@epenser')
 
 #8
 puts "Sors-moi une répartition des handles par taille de ces derniers (nombres de handles avec 1 caractère, nombre de handle avec 2 caractère, ...)"
+def handle_repartition(handles)
+  min = handles.min_by{|x| x.size}
+  min = min.length
+  max = handles.max_by{|x| x.size}
+  max = max.length
+  i = min
+  while i <= max
+    n = handles.count{|content| content.length == i}
+    if n != 0
+      puts "   #{n} handles de #{i - 1} caractères"
+    end
+    i = i + 1
+  end
+end
 
+puts handle_repartition(handles)
 
 
 
