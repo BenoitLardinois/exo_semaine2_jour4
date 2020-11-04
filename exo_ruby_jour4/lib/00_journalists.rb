@@ -47,22 +47,3 @@ def handle_repartition(handles)
 end
 
 puts handle_repartition(handles)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
